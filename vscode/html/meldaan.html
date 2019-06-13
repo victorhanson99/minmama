@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form validatie</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+
+<body>
+    <form action="">
+        <span class="error"></span>
+        <label for="naam">
+            <span>Naam *</span>
+            <input type="text" id="naam" class="input naam" required />
+            <span class="error"></span>
+        </label>
+
+        <label for="email">
+            E-mail *
+            <input type="email" id="email" class="input email" required />
+            <span class="error"></span>
+        </label>
+
+        <label for="leeftijd">
+            Leeftijd *
+            <input type="number" id="leeftijd" class="input leeftijd" min="18" required />
+            <span class="error"></span>
+        </label>
+
+        <label for="omschrijving">
+            Korte omschrijving over jezelf *
+            <input type="text" id="omschrijving" class="input omschrijving" required />
+            <span class="error"></span>
+        </label>
+
+        <input type="submit" value="Meld aan" class="button">
+    </form>
+    <script type="text/javascript" src="js/validate.js"></script>
+</body>
+
+</html>

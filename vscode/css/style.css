@@ -1,0 +1,97 @@
+*,  *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+html{
+    box-sizing: inherit;
+    font-size: 62.5%;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    
+    
+    
+}
+
+html,body{
+   margin: 0 auto;
+   background-color: lightslategrey;
+}
+
+
+
+
+.container{
+    width: 252rem;
+    height: 380rem;
+    background-image: url("../assets/minmama1.png");
+    background-repeat: no-repeat;
+}
+
+.container2{
+    width: 252rem;
+    height: 380rem;
+    background-image: url("../assets/minmama2.png");
+    background-repeat: no-repeat;
+}
+
+.container3{
+    width: 252rem;
+    height: 380rem;
+    background-image: url("../assets/minmama2.png");
+    background-repeat: no-repeat;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 35em 31rem;
+    margin: 25.7rem 0rem 0rem 145rem;
+    position: absolute;
+
+}
+
+.meldaan2{
+    display: grid;
+    grid-template-columns: 35em 31rem;
+    margin: -104rem 0rem 0rem 112rem;
+    position: absolute;
+}
+
+.meldaan__item{
+
+    text-decoration: none;
+    font-size: 6rem;
+    cursor: pointer;
+    }
+    
+    .meldaan__item--link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .meldaan__item:hover{
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+
+
+
+.menu__item{
+
+    text-decoration: none;
+    font-size: 4rem;
+    cursor: pointer;
+    }
+    
+    .menu__item--link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menu__item:hover{
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+
